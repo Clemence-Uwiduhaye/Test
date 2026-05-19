@@ -1,0 +1,32 @@
+/* Element selector */
+p {
+  color: blue;
+  margin: 10px;
+}
+
+/* Class selector */
+.highlight {
+  background-color: yellow;
+  padding: 5px;
+}
+
+/* ID selector */
+#main-header {
+  font-size: 2em;
+  text-align: center;
+}
+
+/* Combining selectors */
+div.container p {
+  line-height: 1.6;
+}
+
+/* Pseudo-classes */
+a:hover {
+  color: red;
+}
+
+/* Attribute selector */
+input[type="email"] {
+  border: 2px solid blue;
+}
