@@ -265,3 +265,14 @@ let user = {
   status: true,
   favorites: ["Music", "Coding", "Travel"]
 };
+
+let cartTotal = 120;
+let isPremiumMember = true;
+let hasDiscountCode = false;
+let isFraudulent = false;
+
+if ((isPremiumMember || cartTotal > 100) && !isFraudulent) {
+    console.log("Free shipping granted");
+} else {
+    console.log("No free shipping");
+}
